@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3BFE061AE4934C006795FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE051AE4934C006795FA /* main.m */; };
+		CD3BFE091AE4934C006795FA /* SBRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE081AE4934C006795FA /* SBRAppDelegate.m */; };
+		CD3BFE0C1AE4934C006795FA /* SBRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE0B1AE4934C006795FA /* SBRFirstViewController.m */; };
+		CD3BFE0F1AE4934C006795FA /* SBRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE0E1AE4934C006795FA /* SBRSecondViewController.m */; };
+		CD3BFE141AE4934C006795FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3BFE131AE4934C006795FA /* Images.xcassets */; };
+		CD3BFE231AE4934D006795FA /* SBRNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE221AE4934D006795FA /* SBRNetworkingTests.m */; };
+		CD3BFE301AE495AD006795FA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3BFE2C1AE495AD006795FA /* Main_iPad.storyboard */; };
+		CD3BFE311AE495AD006795FA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3BFE2E1AE495AD006795FA /* Main_iPhone.storyboard */; };
+		CD3BFE341AE49682006795FA /* SBRNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFE331AE49682006795FA /* SBRNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3BFE1D1AE4934C006795FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3BFDF81AE4934C006795FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3BFDFF1AE4934C006795FA;
+			remoteInfo = SBRNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3BFE001AE4934C006795FA /* SBRNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBRNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3BFE041AE4934C006795FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3BFE051AE4934C006795FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3BFE071AE4934C006795FA /* SBRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRAppDelegate.h; sourceTree = "<group>"; };
+		CD3BFE081AE4934C006795FA /* SBRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRAppDelegate.m; sourceTree = "<group>"; };
+		CD3BFE0A1AE4934C006795FA /* SBRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRFirstViewController.h; sourceTree = "<group>"; };
+		CD3BFE0B1AE4934C006795FA /* SBRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRFirstViewController.m; sourceTree = "<group>"; };
+		CD3BFE0D1AE4934C006795FA /* SBRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRSecondViewController.h; sourceTree = "<group>"; };
+		CD3BFE0E1AE4934C006795FA /* SBRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRSecondViewController.m; sourceTree = "<group>"; };
+		CD3BFE131AE4934C006795FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD3BFE1C1AE4934C006795FA /* SBRNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBRNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3BFE211AE4934D006795FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3BFE221AE4934D006795FA /* SBRNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRNetworkingTests.m; sourceTree = "<group>"; };
+		CD3BFE2D1AE495AD006795FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CD3BFE2F1AE495AD006795FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CD3BFE331AE49682006795FA /* SBRNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRNetworking.m; sourceTree = "<group>"; };
+		CD3BFE351AE49694006795FA /* SBRNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRNetworking.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3BFDFD1AE4934C006795FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3BFE191AE4934C006795FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3BFDF71AE4934C006795FA = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE021AE4934C006795FA /* SBRNetworking */,
+				CD3BFE1F1AE4934D006795FA /* SBRNetworkingTests */,
+				CD3BFE011AE4934C006795FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3BFE011AE4934C006795FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE001AE4934C006795FA /* SBRNetworking.app */,
+				CD3BFE1C1AE4934C006795FA /* SBRNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3BFE021AE4934C006795FA /* SBRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE351AE49694006795FA /* SBRNetworking.h */,
+				CD3BFE331AE49682006795FA /* SBRNetworking.m */,
+				CD3BFE2C1AE495AD006795FA /* Main_iPad.storyboard */,
+				CD3BFE2E1AE495AD006795FA /* Main_iPhone.storyboard */,
+				CD3BFE071AE4934C006795FA /* SBRAppDelegate.h */,
+				CD3BFE081AE4934C006795FA /* SBRAppDelegate.m */,
+				CD3BFE0A1AE4934C006795FA /* SBRFirstViewController.h */,
+				CD3BFE0B1AE4934C006795FA /* SBRFirstViewController.m */,
+				CD3BFE0D1AE4934C006795FA /* SBRSecondViewController.h */,
+				CD3BFE0E1AE4934C006795FA /* SBRSecondViewController.m */,
+				CD3BFE131AE4934C006795FA /* Images.xcassets */,
+				CD3BFE031AE4934C006795FA /* Supporting Files */,
+			);
+			path = SBRNetworking;
+			sourceTree = "<group>";
+		};
+		CD3BFE031AE4934C006795FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE041AE4934C006795FA /* Info.plist */,
+				CD3BFE051AE4934C006795FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD3BFE1F1AE4934D006795FA /* SBRNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE221AE4934D006795FA /* SBRNetworkingTests.m */,
+				CD3BFE201AE4934D006795FA /* Supporting Files */,
+			);
+			path = SBRNetworkingTests;
+			sourceTree = "<group>";
+		};
+		CD3BFE201AE4934D006795FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFE211AE4934D006795FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3BFDFF1AE4934C006795FA /* SBRNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3BFE261AE4934D006795FA /* Build configuration list for PBXNativeTarget "SBRNetworking" */;
+			buildPhases = (
+				CD3BFDFC1AE4934C006795FA /* Sources */,
+				CD3BFDFD1AE4934C006795FA /* Frameworks */,
+				CD3BFDFE1AE4934C006795FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBRNetworking;
+			productName = SBRNetworking;
+			productReference = CD3BFE001AE4934C006795FA /* SBRNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3BFE1B1AE4934C006795FA /* SBRNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3BFE291AE4934D006795FA /* Build configuration list for PBXNativeTarget "SBRNetworkingTests" */;
+			buildPhases = (
+				CD3BFE181AE4934C006795FA /* Sources */,
+				CD3BFE191AE4934C006795FA /* Frameworks */,
+				CD3BFE1A1AE4934C006795FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3BFE1E1AE4934C006795FA /* PBXTargetDependency */,
+			);
+			name = SBRNetworkingTests;
+			productName = SBRNetworkingTests;
+			productReference = CD3BFE1C1AE4934C006795FA /* SBRNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3BFDF81AE4934C006795FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBR;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __ASU__;
+				TargetAttributes = {
+					CD3BFDFF1AE4934C006795FA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CD3BFE1B1AE4934C006795FA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CD3BFDFF1AE4934C006795FA;
+					};
+				};
+			};
+			buildConfigurationList = CD3BFDFB1AE4934C006795FA /* Build configuration list for PBXProject "SBRNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3BFDF71AE4934C006795FA;
+			productRefGroup = CD3BFE011AE4934C006795FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3BFDFF1AE4934C006795FA /* SBRNetworking */,
+				CD3BFE1B1AE4934C006795FA /* SBRNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3BFDFE1AE4934C006795FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3BFE141AE4934C006795FA /* Images.xcassets in Resources */,
+				CD3BFE301AE495AD006795FA /* Main_iPad.storyboard in Resources */,
+				CD3BFE311AE495AD006795FA /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3BFE1A1AE4934C006795FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3BFDFC1AE4934C006795FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3BFE0F1AE4934C006795FA /* SBRSecondViewController.m in Sources */,
+				CD3BFE091AE4934C006795FA /* SBRAppDelegate.m in Sources */,
+				CD3BFE0C1AE4934C006795FA /* SBRFirstViewController.m in Sources */,
+				CD3BFE061AE4934C006795FA /* main.m in Sources */,
+				CD3BFE341AE49682006795FA /* SBRNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3BFE181AE4934C006795FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3BFE231AE4934D006795FA /* SBRNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3BFE1E1AE4934C006795FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3BFDFF1AE4934C006795FA /* SBRNetworking */;
+			targetProxy = CD3BFE1D1AE4934C006795FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3BFE2C1AE495AD006795FA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3BFE2D1AE495AD006795FA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3BFE2E1AE495AD006795FA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3BFE2F1AE495AD006795FA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3BFE241AE4934D006795FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3BFE251AE4934D006795FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3BFE271AE4934D006795FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBRNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3BFE281AE4934D006795FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBRNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3BFE2A1AE4934D006795FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SBRNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBRNetworking.app/SBRNetworking";
+			};
+			name = Debug;
+		};
+		CD3BFE2B1AE4934D006795FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SBRNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBRNetworking.app/SBRNetworking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3BFDFB1AE4934C006795FA /* Build configuration list for PBXProject "SBRNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3BFE241AE4934D006795FA /* Debug */,
+				CD3BFE251AE4934D006795FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3BFE261AE4934D006795FA /* Build configuration list for PBXNativeTarget "SBRNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3BFE271AE4934D006795FA /* Debug */,
+				CD3BFE281AE4934D006795FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3BFE291AE4934D006795FA /* Build configuration list for PBXNativeTarget "SBRNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3BFE2A1AE4934D006795FA /* Debug */,
+				CD3BFE2B1AE4934D006795FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3BFDF81AE4934C006795FA /* Project object */;
+}
